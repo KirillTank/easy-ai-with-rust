@@ -27,7 +27,7 @@ fn main() {
         // ...
     ];
 
-    net.start_train(1_000_000, &dataset);
+    net.start_train(1000000, &dataset);
     net.print_res_train(&dataset);
 }
 ```
