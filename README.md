@@ -30,5 +30,5 @@ fn main() {
     net.start_train(1_000_000, &dataset);
     net.print_res_train(&dataset);
 }
-rust'''
+```
 # Licence MIT
